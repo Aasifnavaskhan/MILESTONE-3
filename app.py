@@ -6,7 +6,7 @@ import pandas as pd
 from handgesture import GestureController
 
 st.set_page_config("Hand Gesture Volume Control", layout="wide")
-st.title("🎵MILESTONE :)")
+st.title("MILESTONE 3")
 
 # ---------- Session State ----------
 if "run" not in st.session_state:
@@ -98,5 +98,6 @@ if st.session_state.run:
         )
 
         time.sleep(0.03)
+
 
     cap.release()
